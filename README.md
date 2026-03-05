@@ -66,13 +66,13 @@ LayerNorm → LM Head → Logits
 
 | Parameter | Value | Description |
 |---|---|---|
-| `batch_size` | `16` | Number of sequences per training step |
+| `batch_size` | `512` | Number of sequences per training step |
 | `block_size` | `32` | Maximum context length (tokens) |
 | `max_iters` | `5000` | Pre-training steps |
 | `learning_rate` | `3e-4` | AdamW learning rate |
-| `n_embd` | `128` | Embedding dimension |
-| `n_head` | `4` | Number of attention heads |
-| `n_layer` | `4` | Number of Transformer blocks |
+| `n_embd` | `512` | Embedding dimension |
+| `n_head` | `8` | Number of attention heads |
+| `n_layer` | `12` | Number of Transformer blocks |
 | `dropout` | `0.2` | Dropout probability |
 | `eval_interval` | `500` | Steps between loss evaluations |
 | `eval_iters` | `200` | Batches averaged per evaluation |

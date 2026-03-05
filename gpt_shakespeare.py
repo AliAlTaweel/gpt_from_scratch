@@ -7,15 +7,15 @@ import json
 
 # --- Hyperparameters ---
 batch_size = 16
-block_size = 32
+block_size = 512
 max_iters = 5000
 eval_interval = 500
 learning_rate = 3e-4
 device = "cuda" if torch.cuda.is_available() else "cpu"
 eval_iters = 200
-n_embd = 128
-n_head = 4
-n_layer = 4
+n_embd = 512
+n_head = 8
+n_layer = 12
 dropout = 0.2
 # -----------------------
 
