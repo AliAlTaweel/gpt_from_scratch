@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+venv_gpt_01/
+
+# Weights and Large Data
+*.pth
+*.pt
+*.bin
+input.txt
+shakespeare_instruct.json
+
+# Notebooks and OS files
+.ipynb_checkpoints
+.DS_Store
